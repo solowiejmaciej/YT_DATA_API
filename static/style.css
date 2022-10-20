@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html,
 body {
   height: 100%;
@@ -75,3 +76,82 @@ li a {
   background-color: #1e1e1e;
   border-radius: 30px;
 }
+=======
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: #181818;
+  color: white;
+  font-family: Thabit;
+  font-weight: Light;
+}
+
+#file {
+  color: white;
+  background-color: #1e1e1e;
+  border: none;
+  font-size: 120%;
+  font-family: Thabit;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li img {
+  padding-top: 16px;
+  padding-left: 16px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 18px 16px;
+  text-decoration: none;
+  font-size: 2rem;
+  margin-right: 55px;
+  height: 100%;
+}
+
+#name {
+  font-family: Fjalla One;
+  font-weight: Regular;
+}
+
+#submit {
+  color: white;
+  background-color: #1e1e1e;
+  border: none;
+  font-size: 250%;
+  font-family: Thabit;
+  cursor: pointer;
+}
+
+#drop_zone {
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 699px;
+  height: 393px;
+  background-color: #1e1e1e;
+  border-radius: 30px;
+}
+>>>>>>> 327b038027ee4c4473e6ad1ebe2a6c9da81e8e1d

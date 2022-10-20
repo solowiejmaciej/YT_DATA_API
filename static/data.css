@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html,
 body {
   height: 100%;
@@ -70,3 +71,77 @@ li a {
   font-size: 1.5rem;
 
 }
+=======
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: #181818;
+  color: white;
+  font-family: Thabit;
+  font-weight: Light;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li img {
+  padding-top: 16px;
+  padding-left: 16px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 18px 16px;
+  text-decoration: none;
+  font-size: 2rem;
+  margin-right: 55px;
+  height: 100%;
+}
+
+.here {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+.here:link {
+  color: #D12122;
+}
+
+.here:visited {
+  color: #D12122;
+}
+
+#name {
+  font-family: Fjalla One;
+  font-weight: Regular;
+}
+
+#text {
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 40%;
+  height: 50%;
+  font-size: 1.5rem;
+
+}
+>>>>>>> 327b038027ee4c4473e6ad1ebe2a6c9da81e8e1d

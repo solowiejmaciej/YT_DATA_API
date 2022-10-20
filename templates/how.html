@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -57,3 +58,64 @@
     </div>
   </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>how</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="{{url_for('static', filename = 'how.css')}}" />
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="https://fontlibrary.org//face/thabit"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <ul>
+        <li>
+          <img
+            src="{{url_for('static', filename = 'logo.png')}}"
+            width="58"
+            height="40"
+          />
+        </li>
+        <li>
+          <a style="display: inline-block" id="name" href="upload_file"
+            >Data API</a
+          >
+        </li>
+        <li style="float: right"><a href="about">about me.</a></li>
+        <li style="float: right"><a href="upload_file">upload file.</a></li>
+        <li style="float: right"><a href="how">how?</a></li>
+      </ul>
+    </div>
+    <div id="text">
+      <p>
+        this website shows your
+        <a class="here" href="https://www.youtube.com/" target="_blank">YouTube</a>
+        statistics based on your watch history json file.
+      </p>
+      <br/>
+      go
+      <a
+        class="here"
+        href="https://takeout.google.com/settings/takeout"
+        target="_blank">
+        here
+      </a>
+      and download only the watch history as json and simply
+      <a class="here" href="upload_file">upload</a> your file to this website.
+    </div>
+  </body>
+</html>
+>>>>>>> 327b038027ee4c4473e6ad1ebe2a6c9da81e8e1d
