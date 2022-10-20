@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>data</title>
+    <script src="script.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="{{url_for('static', filename = 'data.css')}}"
+    />
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="https://fontlibrary.org//face/thabit"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <ul>
+        <li>
+          <img
+            src="{{url_for('static', filename = 'logo.png')}}"
+            width="58"
+            height="40"
+          />
+        </li>
+        <li>
+          <a style="display: inline-block" id="name" href="upload_file">Data API</a>
+        </li>
+        <li style="float: right"><a href="about">about me.</a></li>
+        <li style="float: right"><a href="upload_file">upload file.</a></li>
+        <li style="float: right"><a href="how">how?</a></li>
+      </ul>
+    </div>
+    <div id="text">
+        <text>
+            <p>Watched videos: {{data[2]['videosWatched']}}</p>
+            <p>Total watch time(in seconds): {{data[2]['watchTime']}}</p>
+            <p>The most watched video: <a class="here" href= {{data[2]['link']}} target="_blank">{{data[2]['mostFrequentVideo']}}</a></p>
+            <p>Times watched: {{data[2]['timesWatched']}}</p>
+            <p>The most watched creator: {{data[2]['mostFrequentCreator']}}</p>
+        </text>
+    </div>
+  </body>
+</html>
