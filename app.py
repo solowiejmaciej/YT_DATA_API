@@ -28,8 +28,6 @@ def process():
     stats = processing.get_stats()
     return data,videos_by_channel,stats
 
-test = NULL
-
 @app.route('/')
 @app.route('/how')
 def how():
