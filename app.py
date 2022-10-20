@@ -9,7 +9,7 @@ from wtforms.validators import InputRequired
 
 import processing
 
-filePath='static/files/data.json'
+filePath='static\files\data.json'
 
 app = Flask(__name__)
 
