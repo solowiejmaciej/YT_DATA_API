@@ -61,7 +61,6 @@ def process_data(FILE_PATH):
 
 
 def get_video_id():
-    print("get_video_id")
     for x in range(len(videos)):
         link = videos[x]['titleUrl']
         result = re.findall(
