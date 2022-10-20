@@ -20,7 +20,7 @@ SSL_CONTEXT           = ssl.create_default_context(cafile=certifi.where())
 HEADERS               = requests.utils.default_headers()
 HEADERS['User-Agent'] = random.choice(CHROME)
 
-key = 'API_KEY'
+key = 'AIzaSyDaH3gW1qoX6lW1HYU7UTnoN_hG3kpZmTg'
 
 adds,creators,deleted_videos,maybe_videos,videos,links,videos_id = [],[],[],[],[],[],[]
 result_all,sec_spend,channels,list_of_channels,videos_by_channel = [],[],[],[],[]
