@@ -1,5 +1,4 @@
 from flask import Flask,jsonify
-import sys
 from flask import Flask, render_template
 from flask_wtf import FlaskForm
 from wtforms import FileField, SubmitField
@@ -14,7 +13,7 @@ filePath='static/files/data.json'
 app = Flask(__name__)
 
 app.config['SECRET_KEY'] = 'supersecretkey'
-app.config['UPLOAD_FOLDER'] = 'static/files'
+app.config['UPLOAD_FOLDER'] = 'static\\files\\'
 
 class UploadFileForm(FlaskForm):
     file = FileField("File", validators=[InputRequired()])

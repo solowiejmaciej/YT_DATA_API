@@ -202,6 +202,6 @@ def init():
 
 def remover():
     print("remover")
-    to_remove = [adds,creators,deleted_videos,maybe_videos,videos,links,videos_id,result_all,sec_spend,channels,list_of_channels,videos_by_channel,stats,channel_data,channelIdbySubs]
+    to_remove = [most_frequent_video,adds,creators,deleted_videos,maybe_videos,videos,links,videos_id,result_all,sec_spend,channels,list_of_channels,videos_by_channel,stats,channel_data,channelIdbySubs]
     for item in to_remove:
         item.clear()
